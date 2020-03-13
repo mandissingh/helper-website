@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',
+    filename='bootstrap.css')}}">
+
+    <form action="{{url_for('gconnect')}}" method = 'POST'>
+
+      <p>Name:</p>
+      
+      <input type='text' size='30' name='name'>
+      
+
+      <p>Email:</p>
+      
+      <input type='text' size='30' name='email'>
+
+      <p>Picture Url:</p>
+      
+      <input type='text' size='100' name='picture'>
+      
+      <input type='submit' value='Login'>
+      
+      </form>
+  
+
+
+  </body>
+
+  </html>
